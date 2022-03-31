@@ -28,12 +28,12 @@
     ]
   },
   "api": {
-    "endpoint": "127.0.0.1:8080",
+    "endpoint": "localhost/proxy",
     "reportName": "CORE"
   },
   "theme": {
     "header-gradient-color-start": "#05cae7",
-    "header-gradient-color-end": "#0c2bd5",
+    "header-gradient-color-end": "#000",
     "logo": "../assets/logo.png"
   }
 }

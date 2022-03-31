@@ -9,7 +9,7 @@ const headers = {
 const getStatusServiceGroup = () => {
   // quickly construct request url
   let url =
-    "http://" +
+    "https://" +
     API.endpoint +
     "/api/v2/status/" +
     API.reportName +
@@ -27,7 +27,7 @@ const getStatusServiceGroup = () => {
 const getResultServiceGroups = () => {
   // quickly construct request url
   let url =
-    "http://" +
+    "https://" +
     API.endpoint +
     "/api/v2/results/" +
     API.reportName +
