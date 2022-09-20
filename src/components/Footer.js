@@ -12,6 +12,8 @@ const Footer = () => {
   setThemeValue("footer-gradient-color-end", THEME["footer-gradient-color-end"]);
   setThemeValue("footer-copyright-text-color", THEME["footer-copyright-text-color"]);
 
+  const year = new Date().getFullYear();
+
   return (
     <footer className={`${styles["footer"]} mt-auto`}>
       <div className="container-fluid text-center text-md-left">
@@ -21,7 +23,7 @@ const Footer = () => {
           </div>
           <hr className="clearfix w-100 d-md-none pb-3" />
           <div className={`${styles["copyright"]} col-md-6 mb-md-0 mb-3`}>
-            <span>{COPYRIGHT}</span>
+            <span>Copyright {year} - {COPYRIGHT}</span>
           </div>
         </div>
       </div>
